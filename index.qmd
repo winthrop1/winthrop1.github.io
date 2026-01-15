@@ -1,11 +1,14 @@
 ---
-title: "temp_website"
+title: "Home"
 ---
 
-This is a Quarto website.
+## Hi, I'm Winthrop
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I am a Year 1 student studying AAI1001 (Data Engineering and Visualization) in Applied Computing (Fintech). I enjoy
+learning how data moves from raw sources to clear stories and dashboards.
 
-```{r}
-1 + 1
-```
+### A quick snapshot
+
+- **Interests:** data cleaning, visualization, and simple automation
+- **Current focus:** building neat, readable dashboards for class projects
+- **Goal:** become confident at turning messy data into useful insights

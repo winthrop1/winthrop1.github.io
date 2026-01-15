@@ -1,0 +1,27 @@
+---
+title: "Curriculum Highlights"
+---
+
+## Modules I enjoyed
+
+This page shares a few modules that shaped how I think about data and problem
+solving. I picked these because they were hands-on and gave me confidence to
+work with real datasets.
+
+### Core modules
+
+- **AAI1001 Data Engineering and Visualization**: data cleaning, pipelines, and
+  telling stories with charts
+- **Programming Fundamentals**: building logic with Python and testing small
+  programs
+- **Statistics for Data**: interpreting distributions and making simple
+  inferences
+
+### One mini‑project example
+
+I built a small dashboard to compare weekly study time across modules. It helped
+me see which classes were taking the most effort and adjust my schedule.
+
+### Useful links
+
+- [SIT Academic Calendar](https://www.singaporetech.edu.sg/current-students/academic-calendar)

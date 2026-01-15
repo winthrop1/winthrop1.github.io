@@ -1,1 +1,180 @@
 /* css styles */
+:root {
+  --ink: #1e2a33;
+  --muted: #5b6770;
+  --accent: #1f6f8b;
+  --accent-soft: #e8f1f4;
+  --border: #e3dcd4;
+  --bg-top: #f7f2ec;
+  --bg-bottom: #ffffff;
+}
+
+body {
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", "Palatino", serif;
+  font-size: 17px;
+  line-height: 1.65;
+  color: var(--ink);
+  background: linear-gradient(180deg, var(--bg-top) 0%, var(--bg-bottom) 60%);
+}
+
+main.content {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 2.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Gill Sans", "Trebuchet MS", "Helvetica", sans-serif;
+  color: #1b242c;
+  letter-spacing: 0.2px;
+}
+
+h1 {
+  font-size: 2.1rem;
+  margin-bottom: 0.8rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-top: 1.6rem;
+  margin-bottom: 0.6rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-top: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+
+p {
+  margin: 0 0 0.9rem;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #15546a;
+  text-decoration: underline;
+}
+
+ul,
+ol {
+  padding-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: 1.5rem 0;
+}
+
+blockquote {
+  margin: 1rem 0;
+  padding: 0.75rem 1rem;
+  border-left: 4px solid var(--accent);
+  background: var(--accent-soft);
+  color: var(--muted);
+}
+
+code,
+pre {
+  font-family: "SFMono-Regular", "Consolas", "Liberation Mono", "Menlo", monospace;
+  font-size: 0.9rem;
+}
+
+pre {
+  padding: 0.85rem 1rem;
+  background: #f6f8fa;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0 1.5rem;
+}
+
+table th,
+table td {
+  border-bottom: 1px solid var(--border);
+  padding: 0.5rem 0.4rem;
+  text-align: left;
+}
+
+table thead th {
+  font-weight: 600;
+  color: var(--muted);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+figure {
+  margin: 1.2rem 0 1.6rem;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-top: 0.4rem;
+}
+
+.navbar {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.navbar .nav-link {
+  font-weight: 600;
+}
+
+.dv-figure {
+  max-width: 720px;
+  margin: 1rem 0 1.5rem;
+}
+
+.dv-chart {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.dv-axis,
+.dv-tick {
+  stroke: #3b4a54;
+  stroke-width: 1;
+}
+
+.dv-bar {
+  fill: #4e79a7;
+}
+
+.dv-label,
+.dv-ylabel,
+.dv-value,
+.dv-axis-title {
+  font-size: 12px;
+  fill: #1e2a33;
+}
+
+.dv-label,
+.dv-value {
+  text-anchor: middle;
+}
+
+.dv-ylabel {
+  text-anchor: end;
+}

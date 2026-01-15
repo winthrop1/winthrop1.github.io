@@ -1,9 +1,24 @@
 ---
-title: "About"
+title: "Final Year Project"
 ---
 
-About this site
+## Thyeshan Ecommerce
 
-```{r}
-1 + 1
-```
+This final year project is an e-commerce web application prototype. I used it
+to practice the full flow of an online store and to understand how different
+parts of a web app connect into one user journey.
+
+### Focus of the project
+
+- Design a clear shopping flow from browsing to checkout
+- Organize product and order information in a structured way
+- Keep the interface simple and easy to navigate
+
+### What I learned
+
+> Building a project end-to-end taught me how small design decisions affect the
+> overall user experience.
+
+### Project link
+
+[thyeshan-ecommerce](https://github.com/winthrop1/thyeshan-ecommerce)

@@ -1,13 +1,22 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "temp_website"
+  title: "Winthrop"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: Final Year Project
+      - href: data-vis.qmd
+        text: Data Visualisation
+      - href: curriculum.qmd
+        text: Curriculum
+      - href: reflection.qmd
+        text: Reflection
+
 
 format:
   html:
@@ -16,6 +25,4 @@ format:
       - brand
     css: styles.css
     toc: true
-
-
 

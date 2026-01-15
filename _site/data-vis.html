@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Final Year Project – Winthrop</title>
+<title>Data Visualization – temp_website</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Winthrop</span>
+    <span class="navbar-title">temp_website</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -95,20 +95,12 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
-<span class="menu-text">Final Year Project</span></a>
+    <a class="nav-link active" href="./data-vis.html" aria-current="page"> 
+<span class="menu-text">Data Visualization</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./data-vis.html"> 
-<span class="menu-text">Data Visualisation</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./curriculum.html"> 
-<span class="menu-text">Curriculum</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./reflection.html"> 
-<span class="menu-text">Reflection</span></a>
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -126,11 +118,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#thyeshan-ecommerce" id="toc-thyeshan-ecommerce" class="nav-link active" data-scroll-target="#thyeshan-ecommerce">Thyeshan Ecommerce</a>
+  <li><a href="#study-hours-in-week-6" id="toc-study-hours-in-week-6" class="nav-link active" data-scroll-target="#study-hours-in-week-6">Study Hours in Week 6</a>
   <ul class="collapse">
-  <li><a href="#focus-of-the-project" id="toc-focus-of-the-project" class="nav-link" data-scroll-target="#focus-of-the-project">Focus of the project</a></li>
-  <li><a href="#what-i-learned" id="toc-what-i-learned" class="nav-link" data-scroll-target="#what-i-learned">What I learned</a></li>
-  <li><a href="#project-link" id="toc-project-link" class="nav-link" data-scroll-target="#project-link">Project link</a></li>
+  <li><a href="#what-the-visualization-shows" id="toc-what-the-visualization-shows" class="nav-link" data-scroll-target="#what-the-visualization-shows">What the visualization shows</a></li>
+  <li><a href="#story-and-rationale" id="toc-story-and-rationale" class="nav-link" data-scroll-target="#story-and-rationale">Story and rationale</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -140,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Final Year Project</h1>
+<h1 class="title">Data Visualization</h1>
 </div>
 
 
@@ -157,26 +148,38 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="thyeshan-ecommerce" class="level2">
-<h2 class="anchored" data-anchor-id="thyeshan-ecommerce">Thyeshan Ecommerce</h2>
-<p>This final year project is an e-commerce web application prototype. I used it to practice the full flow of an online store and to understand how different parts of a web app connect into one user journey.</p>
-<section id="focus-of-the-project" class="level3">
-<h3 class="anchored" data-anchor-id="focus-of-the-project">Focus of the project</h3>
-<ul>
-<li>Design a clear shopping flow from browsing to checkout</li>
-<li>Organize product and order information in a structured way</li>
-<li>Keep the interface simple and easy to navigate</li>
-</ul>
+<section id="study-hours-in-week-6" class="level2">
+<h2 class="anchored" data-anchor-id="study-hours-in-week-6">Study Hours in Week 6</h2>
+<p>This chart summarizes the number of hours I spent on coursework each day during Week 6 of my first semester. I tracked the hours to understand when I was most productive and to avoid last-minute cramming.</p>
+<pre class="{vega-lite}"><code>{
+  "data": {
+    "values": [
+      {"Day": "Mon", "Hours": 2.5},
+      {"Day": "Tue", "Hours": 3.0},
+      {"Day": "Wed", "Hours": 1.5},
+      {"Day": "Thu", "Hours": 4.0},
+      {"Day": "Fri", "Hours": 2.0},
+      {"Day": "Sat", "Hours": 3.5},
+      {"Day": "Sun", "Hours": 1.0}
+    ]
+  },
+  "mark": {"type": "bar"},
+  "encoding": {
+    "x": {"field": "Day", "type": "ordinal", "title": "Day of Week"},
+    "y": {"field": "Hours", "type": "quantitative", "title": "Study Hours"},
+    "tooltip": [
+      {"field": "Day", "type": "ordinal"},
+      {"field": "Hours", "type": "quantitative"}
+    ]
+  }
+}</code></pre>
+<section id="what-the-visualization-shows" class="level3">
+<h3 class="anchored" data-anchor-id="what-the-visualization-shows">What the visualization shows</h3>
+<p>Each bar represents total study hours for a day in the same week. The peak on Thursday shows my heaviest workday, while Sunday is the lightest.</p>
 </section>
-<section id="what-i-learned" class="level3">
-<h3 class="anchored" data-anchor-id="what-i-learned">What I learned</h3>
-<blockquote class="blockquote">
-<p>Building a project end-to-end taught me how small design decisions affect the overall user experience.</p>
-</blockquote>
-</section>
-<section id="project-link" class="level3">
-<h3 class="anchored" data-anchor-id="project-link">Project link</h3>
-<p><a href="https://github.com/winthrop1/thyeshan-ecommerce">thyeshan-ecommerce</a></p>
+<section id="story-and-rationale" class="level3">
+<h3 class="anchored" data-anchor-id="story-and-rationale">Story and rationale</h3>
+<p>I created this during an early module when I felt my schedule was uneven. The data helped me see that I was concentrating too much work mid-week. I used a bar chart because the days are discrete categories, and bars make it easy to compare values across categories without overcomplicating the message.</p>
 
 
 </section>

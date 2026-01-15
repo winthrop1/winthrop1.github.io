@@ -1,0 +1,27 @@
+---
+title: "Reflection on the use of GenAI"
+---
+
+## Tool used and why
+
+ChatGPT Codex
+
+### How it helped me in this assignment
+
+- Improving content for my website
+- Give me ideas on what to write
+
+
+### Benefits I noticed
+
+- GenAI has a large amount of knowledge on the subject matter
+- Makes it easier to brainstorm content
+
+### Challenges I faced
+
+- GenAI may not fully understand the context
+- Make people lazy to read and understand code
+
+### How I might use GenAI in future study or work
+
+I might use GenAI in the future for brainstorming and creating frontend designs for websites.

@@ -1,0 +1,37 @@
+---
+title: "Data Visualization"
+format: html
+---
+
+## Singapore Economic Stress Score (Time Series)
+
+This project visualizes a composite economic stress score for Singapore from
+1993-12 to 2025-04. The score ranges from 0 to 100, with amber (40) and red (65)
+thresholds to signal elevated stress. Project repo:
+[singapore-economic-stress-monitor](https://github.com/winthrop1/singapore-economic-stress-monitor).
+
+![Singapore Economic Stress Score time series with amber and red thresholds.](stress_timeseries.png){fig-cap="Singapore Economic Stress Score (1993-12 to 2025-04)."}
+
+### What the visualization shows
+
+- A monthly composite stress score (0-100) across more than 30 years
+- Amber and red thresholds to mark higher-risk regimes
+- A labeled latest value to make the current level easy to read
+
+### Story behind the task
+
+I created this visualization to summarize economic stress in one view instead
+of checking multiple indicators separately. The time series shows how stress
+moves through different periods, which makes it easier to spot spikes and calm
+stretches. Adding the shaded threshold bands helps non-technical readers
+interpret the score quickly. The callout on the latest value makes the chart
+useful as a quick status check.
+
+### Rationale for the chart type
+
+- **Why a line chart:** time is continuous, so a line best shows trend and
+  volatility across months.
+- **Why thresholds and shading:** they provide a clear, visual reference for
+  what counts as moderate vs. high stress.
+- **Why annotation:** highlighting the latest point directs attention to the
+  most actionable value.

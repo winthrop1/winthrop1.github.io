@@ -2,15 +2,106 @@
   {
     "objectID": "index.html",
     "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "I am a Year 1 student studying AAI1001 (Data Engineering and Visualization) in Applied Computing (Fintech). I enjoy learning how data moves from raw sources to clear stories and dashboards.\n\n\n\nInterests: data cleaning, visualization, and simple automation\nCurrent focus: building neat, readable dashboards for class projects\nGoal: become confident at turning messy data into useful insights"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Final Year Project",
+    "section": "",
+    "text": "This final year project is an e-commerce web application prototype. I used it to practice the full flow of an online store and to understand how different parts of a web app connect into one user journey.\n\n\n\nDesign a clear shopping flow from browsing to checkout\nOrganize product and order information in a structured way\nKeep the interface simple and easy to navigate\n\n\n\n\n\nBuilding a project end-to-end taught me how small design decisions affect the overall user experience.\n\n\n\n\nthyeshan-ecommerce"
+  },
+  {
+    "objectID": "index.html#hi-im-winthrop",
+    "href": "index.html#hi-im-winthrop",
+    "title": "Home",
+    "section": "",
+    "text": "I am a Year 1 student studying AAI1001 (Data Engineering and Visualization) in Applied Computing (Fintech). I enjoy learning how data moves from raw sources to clear stories and dashboards.\n\n\n\nInterests: data cleaning, visualization, and simple automation\nCurrent focus: building neat, readable dashboards for class projects\nGoal: become confident at turning messy data into useful insights"
+  },
+  {
+    "objectID": "data-vis.html",
+    "href": "data-vis.html",
+    "title": "Data Visualization",
+    "section": "",
+    "text": "This project visualizes a composite economic stress score for Singapore from 1993-12 to 2025-04. The score ranges from 0 to 100, with amber (40) and red (65) thresholds to signal elevated stress. Project repo: singapore-economic-stress-monitor.\n\n\n\nSingapore Economic Stress Score time series with amber and red thresholds.\n\n\n\n\n\nA monthly composite stress score (0-100) across more than 30 years\nAmber and red thresholds to mark higher-risk regimes\nA labeled latest value to make the current level easy to read\n\n\n\n\nI created this visualization to summarize economic stress in one view instead of checking multiple indicators separately. The time series shows how stress moves through different periods, which makes it easier to spot spikes and calm stretches. Adding the shaded threshold bands helps non-technical readers interpret the score quickly. The callout on the latest value makes the chart useful as a quick status check.\n\n\n\n\nWhy a line chart: time is continuous, so a line best shows trend and volatility across months.\nWhy thresholds and shading: they provide a clear, visual reference for what counts as moderate vs. high stress.\nWhy annotation: highlighting the latest point directs attention to the most actionable value."
+  },
+  {
+    "objectID": "data-vis.html#study-hours-in-week-6",
+    "href": "data-vis.html#study-hours-in-week-6",
+    "title": "Data Visualization",
+    "section": "",
+    "text": "This chart summarizes the number of hours I spent on coursework each day during Week 6 of my first semester. I tracked the hours to understand when I was most productive and to avoid last-minute cramming.\n\n\n\nStudy hours by day\n\nBar chart of study hours from Monday to Sunday.  \n 0  1  2  3  4\n      \n2.5 3.0 1.5 4.0 2.0 3.5 1.0\nMon Tue Wed Thu Fri Sat Sun\nHours Day of Week\n\n\nHours of study per day in Week 6.\n\n\n\n\nEach bar represents total study hours for a day in the same week. The peak on Thursday shows my heaviest workday, while Sunday is the lightest.\n\n\n\nI created this during an early module when I felt my schedule was uneven. The data helped me see that I was concentrating too much work mid-week. I used a bar chart because the days are discrete categories, and bars make it easy to compare values across categories without overcomplicating the message."
+  },
+  {
+    "objectID": "temp_website/about.html",
+    "href": "temp_website/about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "temp_website/index.html",
+    "href": "temp_website/index.html",
     "title": "temp_website",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "about.html#project-overview",
+    "href": "about.html#project-overview",
+    "title": "Final Year Project",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "[Write 3-5 sentences about your final year project (or another project you did before SIT). Include the problem, what you built, and who it was for.]\n\n\n\n[Feature or deliverable 1]\n[Feature or deliverable 2]\n[Feature or deliverable 3]\n\n\n\n\n\n[One short, honest takeaway about what you learned or why the project was meaningful.]\n\n\n\n\n\n[Tool or platform you used]\n[Dataset or data source]\n\nProject link (replace with your actual link)"
+  },
+  {
+    "objectID": "reflection.html",
+    "href": "reflection.html",
+    "title": "Reflection on the use of GenAI",
+    "section": "",
+    "text": "ChatGPT Codex\n\n\n\nImproving content for my website\nGive me ideas on what to write\n\n\n\n\n\nGenAI has a large amount of knowledge on the subject matter\nMakes it easier to brainstorm content\n\n\n\n\n\nGenAI may not fully understand the context\nMake people lazy to read and understand code\n\n\n\n\nI might use GenAI in the future for brainstorming and creating frontend designs for websites."
+  },
+  {
+    "objectID": "reflection.html#tool-used-and-why",
+    "href": "reflection.html#tool-used-and-why",
+    "title": "Reflection on the use of GenAI",
+    "section": "",
+    "text": "ChatGPT Codex\n\n\n\nImproving content for my website\nGive me ideas on what to write\n\n\n\n\n\nGenAI has a large amount of knowledge on the subject matter\nMakes it easier to brainstorm content\n\n\n\n\n\nGenAI may not fully understand the context\nMake people lazy to read and understand code\n\n\n\n\nI might use GenAI in the future for brainstorming and creating frontend designs for websites."
+  },
+  {
+    "objectID": "curriculum.html",
+    "href": "curriculum.html",
+    "title": "Curriculum Highlights",
+    "section": "",
+    "text": "This page shares a few modules that shaped how I think about data and problem solving. I picked these because they were hands-on and gave me confidence to work with real datasets.\n\n\n\nAAI1001 Data Engineering and Visualization: data cleaning, pipelines, and telling stories with charts\nProgramming Fundamentals: building logic with Python and testing small programs\nStatistics for Data: interpreting distributions and making simple inferences\n\n\n\n\nI built a small dashboard to compare weekly study time across modules. It helped me see which classes were taking the most effort and adjust my schedule.\n\n\n\n\nSIT Academic Calendar"
+  },
+  {
+    "objectID": "curriculum.html#modules-i-enjoyed",
+    "href": "curriculum.html#modules-i-enjoyed",
+    "title": "Curriculum Highlights",
+    "section": "",
+    "text": "This page shares a few modules that shaped how I think about data and problem solving. I picked these because they were hands-on and gave me confidence to work with real datasets.\n\n\n\nAAI1001 Data Engineering and Visualization: data cleaning, pipelines, and telling stories with charts\nProgramming Fundamentals: building logic with Python and testing small programs\nStatistics for Data: interpreting distributions and making simple inferences\n\n\n\n\nI built a small dashboard to compare weekly study time across modules. It helped me see which classes were taking the most effort and adjust my schedule.\n\n\n\n\nSIT Academic Calendar"
+  },
+  {
+    "objectID": "data-vis.html#visualization-title-your-chart-title",
+    "href": "data-vis.html#visualization-title-your-chart-title",
+    "title": "Data Visualization",
+    "section": "",
+    "text": "Context: [When and where you created this (module, project, or period).]\nWhat is measured: [Explain the numeric values and units.]\nWhy it matters: [One sentence about the goal or decision this supported.]\n\n\n\n\n\nCategory\nValue\n\n\n\n\nMon\n2.5\n\n\nTue\n3.0\n\n\nWed\n1.5\n\n\nThu\n4.0\n\n\nFri\n2.0\n\n\nSat\n3.5\n\n\nSun\n1.0\n\n\n\n\n\n\nStudy hours by day\n\nBar chart of study hours from Monday to Sunday.  \n 0  1  2  3  4\n      \n2.5 3.0 1.5 4.0 2.0 3.5 1.0\nMon Tue Wed Thu Fri Sat Sun\nHours Day of Week\n\n\nHours of study per day in Week 6.\n\n\n\n\n\nEach bar represents one category and its numeric value. The tallest bar shows the maximum value, while the shortest bar shows the minimum.\n\n\n\n[Write 4-6 sentences about why you collected these numbers, what you were trying to learn or solve, and any changes you made after seeing the results.]\n\n\n\n\nWhy bar chart: [Explain why comparing categories was important.]\nWhy this scale: [Explain why the range and labels are easy to read.]\nWhat it makes clear: [One sentence about the key insight.]\n\nOptional source link (replace with your actual source)"
+  },
+  {
+    "objectID": "data-vis.html#singapore-economic-stress-score-time-series",
+    "href": "data-vis.html#singapore-economic-stress-score-time-series",
+    "title": "Data Visualization",
+    "section": "",
+    "text": "This project visualizes a composite economic stress score for Singapore from 1993-12 to 2025-04. The score ranges from 0 to 100, with amber (40) and red (65) thresholds to signal elevated stress. Project repo: singapore-economic-stress-monitor.\n\n\n\nSingapore Economic Stress Score time series with amber and red thresholds.\n\n\n\n\n\nA monthly composite stress score (0-100) across more than 30 years\nAmber and red thresholds to mark higher-risk regimes\nA labeled latest value to make the current level easy to read\n\n\n\n\nI created this visualization to summarize economic stress in one view instead of checking multiple indicators separately. The time series shows how stress moves through different periods, which makes it easier to spot spikes and calm stretches. Adding the shaded threshold bands helps non-technical readers interpret the score quickly. The callout on the latest value makes the chart useful as a quick status check.\n\n\n\n\nWhy a line chart: time is continuous, so a line best shows trend and volatility across months.\nWhy thresholds and shading: they provide a clear, visual reference for what counts as moderate vs. high stress.\nWhy annotation: highlighting the latest point directs attention to the most actionable value."
+  },
+  {
+    "objectID": "about.html#thyeshan-ecommerce",
+    "href": "about.html#thyeshan-ecommerce",
+    "title": "Final Year Project",
+    "section": "",
+    "text": "This final year project is an e-commerce web application prototype. I used it to practice the full flow of an online store and to understand how different parts of a web app connect into one user journey.\n\n\n\nDesign a clear shopping flow from browsing to checkout\nOrganize product and order information in a structured way\nKeep the interface simple and easy to navigate\n\n\n\n\n\nBuilding a project end-to-end taught me how small design decisions affect the overall user experience.\n\n\n\n\nthyeshan-ecommerce"
   }
 ]

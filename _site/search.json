@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "I am a Year 1 student studying AAI1001 (Data Engineering and Visualization) in Applied Computing (Fintech). I enjoy learning how data moves from raw sources to clear stories and dashboards.\n\n\n\nInterests: data cleaning, visualization, and simple automation\nCurrent focus: building neat, readable dashboards for class projects\nGoal: become confident at turning messy data into useful insights"
+  },
+  {
+    "objectID": "index.html#hi-im-winthrop",
+    "href": "index.html#hi-im-winthrop",
+    "title": "Home",
+    "section": "",
+    "text": "I am a Year 1 student studying AAI1001 (Data Engineering and Visualization) in Applied Computing (Fintech). I enjoy learning how data moves from raw sources to clear stories and dashboards.\n\n\n\nInterests: data cleaning, visualization, and simple automation\nCurrent focus: building neat, readable dashboards for class projects\nGoal: become confident at turning messy data into useful insights"
+  },
+  {
+    "objectID": "temp_website/about.html",
+    "href": "temp_website/about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "temp_website/index.html",
+    "href": "temp_website/index.html",
+    "title": "temp_website",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "data-vis.html",
+    "href": "data-vis.html",
+    "title": "Data Visualization",
+    "section": "",
+    "text": "This chart summarizes the number of hours I spent on coursework each day during Week 6 of my first semester. I tracked the hours to understand when I was most productive and to avoid last-minute cramming.\n{\n  \"data\": {\n    \"values\": [\n      {\"Day\": \"Mon\", \"Hours\": 2.5},\n      {\"Day\": \"Tue\", \"Hours\": 3.0},\n      {\"Day\": \"Wed\", \"Hours\": 1.5},\n      {\"Day\": \"Thu\", \"Hours\": 4.0},\n      {\"Day\": \"Fri\", \"Hours\": 2.0},\n      {\"Day\": \"Sat\", \"Hours\": 3.5},\n      {\"Day\": \"Sun\", \"Hours\": 1.0}\n    ]\n  },\n  \"mark\": {\"type\": \"bar\"},\n  \"encoding\": {\n    \"x\": {\"field\": \"Day\", \"type\": \"ordinal\", \"title\": \"Day of Week\"},\n    \"y\": {\"field\": \"Hours\", \"type\": \"quantitative\", \"title\": \"Study Hours\"},\n    \"tooltip\": [\n      {\"field\": \"Day\", \"type\": \"ordinal\"},\n      {\"field\": \"Hours\", \"type\": \"quantitative\"}\n    ]\n  }\n}\n\n\nEach bar represents total study hours for a day in the same week. The peak on Thursday shows my heaviest workday, while Sunday is the lightest.\n\n\n\nI created this during an early module when I felt my schedule was uneven. The data helped me see that I was concentrating too much work mid-week. I used a bar chart because the days are discrete categories, and bars make it easy to compare values across categories without overcomplicating the message."
+  },
+  {
+    "objectID": "data-vis.html#study-hours-in-week-6",
+    "href": "data-vis.html#study-hours-in-week-6",
+    "title": "Data Visualization",
+    "section": "",
+    "text": "This chart summarizes the number of hours I spent on coursework each day during Week 6 of my first semester. I tracked the hours to understand when I was most productive and to avoid last-minute cramming.\n{\n  \"data\": {\n    \"values\": [\n      {\"Day\": \"Mon\", \"Hours\": 2.5},\n      {\"Day\": \"Tue\", \"Hours\": 3.0},\n      {\"Day\": \"Wed\", \"Hours\": 1.5},\n      {\"Day\": \"Thu\", \"Hours\": 4.0},\n      {\"Day\": \"Fri\", \"Hours\": 2.0},\n      {\"Day\": \"Sat\", \"Hours\": 3.5},\n      {\"Day\": \"Sun\", \"Hours\": 1.0}\n    ]\n  },\n  \"mark\": {\"type\": \"bar\"},\n  \"encoding\": {\n    \"x\": {\"field\": \"Day\", \"type\": \"ordinal\", \"title\": \"Day of Week\"},\n    \"y\": {\"field\": \"Hours\", \"type\": \"quantitative\", \"title\": \"Study Hours\"},\n    \"tooltip\": [\n      {\"field\": \"Day\", \"type\": \"ordinal\"},\n      {\"field\": \"Hours\", \"type\": \"quantitative\"}\n    ]\n  }\n}\n\n\nEach bar represents total study hours for a day in the same week. The peak on Thursday shows my heaviest workday, while Sunday is the lightest.\n\n\n\nI created this during an early module when I felt my schedule was uneven. The data helped me see that I was concentrating too much work mid-week. I used a bar chart because the days are discrete categories, and bars make it easy to compare values across categories without overcomplicating the message."
+  }
+]
